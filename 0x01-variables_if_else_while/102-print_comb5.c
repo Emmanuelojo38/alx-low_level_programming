@@ -11,7 +11,7 @@ int main(void)
 {
 	int no1, no2;
 
-	for (no1 = 0; no1 <= 98; num1++)
+	for (no1 = 0; no1 <= 98; no1++)
 	{
 		for(no2 = no1 + 1; no2 <= 99; no2++)
 		{
@@ -24,7 +24,7 @@ int main(void)
 			if (no1 == 98 && no2 == 99)
 				continue;
 			putchar(',');
-			putchar(' ')
+			putchar(' ');'
 		}
 	}
 	putchar('\n');
