@@ -20,7 +20,7 @@ int main(void)
 			b++;
 			j = b;
 			b--;
-			for (c = '0'; c <= '9'; c++)
+			for (c = i; c <= '9'; c++)
 			{
 				for (d = j; d <= '9'; d++)
 				{
