@@ -16,9 +16,9 @@ int main(void)
 	j = _j = '2';
 	for (huns = '0'; huns <= '9'; huns++)
 	{
-		for (tens = '0'; tens <= '9'; tens++)
+		for (tens = i; tens <= '9'; tens++)
 		{
-			for (units = k; units <= '9'; units++)
+			for (units = j; units <= '9'; units++)
 			{
 				putchar(huns);
 				putchar(tens);
