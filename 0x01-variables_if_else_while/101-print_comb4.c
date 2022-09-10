@@ -10,6 +10,7 @@
 int main(void)
 {
 	int huns, tens, units, i, j;
+	int _i, _j;
 
 	i = _i = '1';
 	j = _j = '2';
