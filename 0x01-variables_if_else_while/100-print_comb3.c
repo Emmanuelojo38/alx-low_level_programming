@@ -4,8 +4,6 @@
 /**
  * main: Entry point
  *
- * Description: all possible different combinations of two digits
- *
  * Result: Always 0 (Success)
  */
 int main(void)
@@ -26,5 +24,6 @@ int main(void)
 		}
 		k++;
 	}
+	putchar('\n');
 	return (0);
 }
