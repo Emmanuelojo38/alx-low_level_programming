@@ -1,1 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int huns, tens, units, i, j;
+
+	i = _i = '1';
+	j = _j = '2';
+	for (huns = '0'; huns <= '9'; huns++)
+	{
+		for (tens = '0'; tens <= '9'; tens++)
+		{
+			for (units = k; units <= '9'; units++)
+			{
+				putchar(huns);
+				putchar(tens);
+				putchar(units);
+				if (huns == '7' && tens == '8' && units == '9')
+					break;
+				putchar(',');
+				putchar(' ');
+			}
+			j++;
+		}
+		i++;
+		_j++
+		j = _j;
+	}
+
+	putchar('\n');
+	return (0);
+}
