@@ -4,6 +4,7 @@
  * _islower: func to check for lowercase
  * @c: argument function
  * Return: Always 0 (Success)
+ */
 
 int  _islower(int c)
 {
