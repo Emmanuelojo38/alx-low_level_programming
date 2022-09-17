@@ -28,8 +28,7 @@ void print_triangle(int size)
 			if (i == size)
 			{
 				continue;
-			}
-		
+			}	
 			putchar('\n');
 		}
 	}
