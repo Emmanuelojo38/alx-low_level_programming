@@ -23,14 +23,13 @@ int main(void)
 			printf("Fizz ");
 			continue;
 		}
-		else if ((i % 5) == 0)
+		else ((i % 5) == 0)
 		{
 			printf("Buzz");
-			if (i != 100)
+			if (i == 100)
 				putchar(' ');
 			continue;
 		}
-
 		printf("%d ", i);
 	}
 	putchar(10);
