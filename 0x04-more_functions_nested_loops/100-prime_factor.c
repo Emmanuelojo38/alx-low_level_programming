@@ -1,13 +1,13 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints the largeest prime factor
+ * of a number
  *
  * Return:  Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	unsigned long num = 612852475143;
 	unsigned long bd = num;
@@ -28,4 +28,5 @@ int main()
 			break;
 	}
 	printf("%d\n", divisor);
+	return (0);
 }
