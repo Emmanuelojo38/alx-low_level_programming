@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * maiin - prints either number
+ * main - program that prints either number
  * or fizz or buzz or fizzbuzz
  *
  * Return: 0
@@ -10,28 +9,26 @@
 
 int main(void)
 {
-	int i;
+	int num = 1;
 
-	for (i = 1; i <= 100; i++)
+	while (num++ < 100)
 	{
-		if (((i % 3) == 0) && ((i % 5) == 0))
+		if ((num % 3 == 0) && (num % 5 == 0))
 		{
 			printf("FizzBuzz ");
-			continue;
 		}
-		else if ((i % 3) == 0)
+		else if ((num % 3) == 0)
 		{
 			printf("Fizz ");
-			continue;
 		}
-		else if ((i % 5) == 0)
+		else if ((num % 5) == 0)
 		{
 			printf("Buzz");
-			if (i == 100)
+			if (num != 100)
 				putchar(' ');
 			continue;
 		}
-		printf("%d ", i);
+		printf("%d ", num);
 	}
 	putchar(10);
 	return (0);
