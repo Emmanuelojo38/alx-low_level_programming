@@ -2,9 +2,11 @@
 #include "main.h"
 
 /*
- * main - function that prints a triangle, followed by a new line
+ * main - Entry point
  *
- * Return: Always 0
+ * print_triangle - function that prints a triangle, followed by a new line
+ *
+ * Return: nothing
  */
 
 void print_triangle(int size)
@@ -28,7 +30,7 @@ void print_triangle(int size)
 			if (i == size)
 			{
 				continue;
-			}	
+			}
 			putchar('\n');
 		}
 	}
